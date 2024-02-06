@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+  
+}
+.header, .timer{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header{
+   font-size: 3rem;
+    
+}
+.timer{
+    font-size: 3rem;
+    padding-top: 50px;
+}
+
+.buttons{ 
+    padding-top: 50px;
+}
+button{
+ border: none;
+ padding: 15px 40px;
+ border-radius: 5px;
+font-weight: bold;
+font-size: 1.25rem;
+}
+
+.start{
+    background-color: rgb(89, 212, 89);
+}
+.stop{
+    background-color: rgb(255, 49, 49);
+}
+
